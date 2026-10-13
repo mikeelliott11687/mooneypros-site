@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Private preview test on GitHub Pages. Remove Disallow before go-live.
+Sitemap: https://www.mooneypros.com/sitemap.xml
