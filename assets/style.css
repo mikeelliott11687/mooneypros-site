@@ -201,3 +201,11 @@ ul.testimonials{list-style:none;padding:0;margin:28px 0 0;display:grid;grid-temp
 .bio-aircraft{margin:14px 0 8px;max-width:320px}
 .bio-aircraft img{width:100%;height:auto;border-radius:8px;display:block}
 .bio-aircraft figcaption{font-size:13px;color:#555;margin-top:6px;text-align:center}
+
+/* Testimonials refresh (Oct 2026) */
+.testimonials-band .t-intro{text-align:center;max-width:46rem;margin:0 auto 1.4rem}
+.testimonials-band .t-share{text-align:center;margin-top:1.4rem;font-weight:600}
+.it-roll{margin:1.2rem 0 0;padding:1rem 1.2rem;border-left:4px solid #c8a24a;background:rgba(255,255,255,.7);border-radius:6px;min-height:5.5rem}
+.it-roll h3{margin:0 0 .4rem;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.it-roll blockquote{margin:0;font-style:italic;display:none}.it-roll blockquote.on{display:block}
+.it-roll cite{display:block;font-style:normal;font-weight:600;margin-top:.35rem}
