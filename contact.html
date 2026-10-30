@@ -182,7 +182,10 @@ window.addEventListener('message', function (e) {
   var ifr = document.querySelector('iframe[src*="mooney-pros-form"]');
   if (!ifr) return;
   var h = Number(e.data.height) || 0;
-  if (h > 400) ifr.style.height = Math.min(Math.max(h + 24, 1900), 4000) + 'px';
+  if (h <= 400) return;
+  var next = Math.min(Math.max(h + 24, 1900), 3200);
+  var cur = parseInt(ifr.style.height || getComputedStyle(ifr).height, 10) || 0;
+  if (!cur || Math.abs(next - cur) > 48) ifr.style.height = next + 'px';
 });
 </script>
 </body>
