@@ -217,7 +217,7 @@ a.mi-badge{display:inline-block;line-height:0;text-decoration:none;background:tr
 a.mi-badge img{display:block;width:100%;height:auto;background:transparent;border:0}
 .mi-home{margin:16px auto 4px;text-align:center}
 .mi-home .mi-label{display:block;font-size:14px;font-weight:700;color:var(--gray-800);margin:0 0 6px}
-.mi-home a.mi-badge{width:160px}
+.mi-home a.mi-badge{width:76px}
 #mike-elliott-ceo-and-founder .bio-name{display:flex;align-items:flex-start;max-width:100%}
 #mike-elliott-ceo-and-founder .mi-title{display:flex;flex-wrap:wrap;align-items:flex-start;width:auto;max-width:100%;margin:0;text-align:left}
 #mike-elliott-ceo-and-founder .mi-namecol{display:flex;flex-direction:column;align-items:center;width:max-content;max-width:100%}
@@ -225,6 +225,3 @@ a.mi-badge img{display:block;width:100%;height:auto;background:transparent;borde
 #mike-elliott-ceo-and-founder a.mi-badge{width:76px;max-width:75%;margin-top:8px}
 #mike-elliott-ceo-and-founder a.mi-badge img{width:100%;max-width:100%;height:auto}
 #mike-elliott-master-instructor{scroll-margin-top:96px}
-@media (max-width:900px){
-  .mi-home a.mi-badge{width:140px}
-}
