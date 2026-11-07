@@ -220,9 +220,8 @@ a.mi-badge img{display:block;width:100%;height:auto;background:transparent;borde
 .mi-home a.mi-badge{width:160px}
 .mi-credline{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:0 0 8px}
 .mi-credline p{margin:0;flex:1 1 280px}
-.mi-credline a.mi-badge{flex:0 1 240px;width:240px}
+.mi-credline a.mi-badge{flex:0 0 112px;width:112px}
 #mike-elliott-master-instructor{scroll-margin-top:96px}
 @media (max-width:900px){
   .mi-home a.mi-badge{width:140px}
-  .mi-credline a.mi-badge{width:200px;flex-basis:200px}
 }
