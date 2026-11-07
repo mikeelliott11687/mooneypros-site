@@ -211,3 +211,19 @@ ul.testimonials{list-style:none;padding:0;margin:28px 0 0;display:grid;grid-temp
 .it-roll h3{margin:0 0 .4rem;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
 .it-roll blockquote{margin:0;font-style:italic;display:none}.it-roll blockquote.on{display:block}
 .it-roll cite{display:block;font-style:normal;font-weight:600;margin-top:.35rem}
+
+/* Mike Elliott only: Master Instructor badge. Width sets the size; height stays auto so the 500×236 image keeps its ratio. */
+a.mi-badge{display:inline-block;line-height:0;text-decoration:none;background:transparent;max-width:100%}
+a.mi-badge img{display:block;width:100%;height:auto;background:transparent;border:0}
+.mi-home{margin:16px auto 4px;text-align:center}
+.mi-home .mi-label{display:block;font-size:14px;font-weight:700;color:var(--gray-800);margin:0 0 6px}
+.mi-home a.mi-badge{width:160px}
+.mi-credline{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:0 0 8px}
+.mi-credline p{margin:0;flex:1 1 280px}
+.mi-credline a.mi-badge{flex:0 1 240px;width:240px}
+#mike-elliott-master-instructor{scroll-margin-top:96px}
+@media (max-width:900px){
+  .mi-home a.mi-badge{width:140px}
+  .mi-credline{align-items:flex-start}
+  .mi-credline a.mi-badge{width:200px;flex-basis:200px}
+}
